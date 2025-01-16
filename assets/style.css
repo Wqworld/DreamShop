@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;  
+}
+
+.logo-nav{
+    width: 50%;
+    max-width: 100px;
+}
+
+.logo-judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    Font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: #34468D;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 10px;
+    position: sticky;
+    padding: 10px;
+    top: 0;
+    border-radius: 10px;
+    Font-family: 'Quicksand', sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.input-SearchBar{
+    Font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    background-color: #9dabe5;
+    padding: 5px;
+    margin: 10px;
+    color: #000000;
+}
+
+.input-SearchBar::-webkit-input-placeholder{
+    color: #000000;
+}
+
+.SearchBar {
+    float: right;
+    margin: 10px;
+    margin-top: -2px;
+    width: 200px;
+}
+
+.Beranda-DreamShop{
+    background-color: #34468D;
+    margin: 10px;
+}
+
+.teks-Beranda{
+    max-width: 450px;
+}
+
+.subjudul-Beranda{
+    margin-top: -24px;
+}
+
+.judul-Beranda{
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
