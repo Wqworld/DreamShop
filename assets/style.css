@@ -9,7 +9,7 @@ body {
 
 .logo-nav{
     width: 50%;
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .logo-judul{
@@ -24,6 +24,7 @@ nav {
     background-color: #34468D;
     justify-content: space-between;
     align-items: center;
+    border: 2px #000000 solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     margin: 10px;
@@ -67,20 +68,71 @@ nav a{
 }
 
 .Beranda-DreamShop{
+    margin: 30px 10px;
     background-color: #34468D;
+    padding: 30px;
+    border: 2px #000000 solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.isi-beranda{
+    display: flex;
     margin: 10px;
-}
-
-.teks-Beranda{
-    max-width: 450px;
-}
-
-.subjudul-Beranda{
-    margin-top: -24px;
+    justify-content: center;
 }
 
 .judul-Beranda{
-    width: 500px;
-    justify-content: center;
+    width: 60%;
+    max-width: 650px;
     text-align: center;
+}
+
+.judul-Beranda img{
+    width: 80%;
+    max-width: 480px;
+}
+
+.gambar-beranda{
+    padding: 10px;
+    width: 60%;
+    max-width: 230px;
+}
+
+.gambar-beranda img{
+    width: 90%;
+    max-width: 200px;
+}
+
+.subjudul-Beranda{
+    margin-top: -28px;
+    font-size: 20px;
+    color: #77A44E;
+}
+
+.deks-beranda{
+    Font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.hiasan-beranda-satu {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: -1;
+}
+
+.hiasan-beranda-dua {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5733;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    z-index: -1;
 }
