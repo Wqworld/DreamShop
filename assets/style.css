@@ -32,7 +32,6 @@
         padding: 10px;
         top: 0;
         border-radius: 10px;
-        Font-family: 'Quicksand', sans-serif;
     }
 
     nav li {
@@ -45,6 +44,12 @@
         text-decoration: none;
         color: #ffffff;
         font-size: 20px;
+        Font-family: 'Quicksand', sans-serif;
+    }
+
+    nav h3{
+        font-size: 50px;
+        font-weight: bold;
     }
 
     .input-SearchBar{
@@ -64,7 +69,7 @@
         float: right;
         margin: 10px;
         margin-top: -2px;
-        width: 200px;
+        width: 250px;
     }
 
     .Beranda-DreamShop{
@@ -115,24 +120,21 @@
         font-size: 20px;
     }
 
-    .hiasan-beranda-satu {
-        width: 150px;
-        height: 150px;
-        background-color: #ffcc00;
-        border-radius: 50%;
-        position: absolute;
-        top: -20px;
-        right: -20px;
-        z-index: -1;
+    .produk{
+        display: flex;
+        margin: 40px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+    
+    .card{
+        margin: 10px;
+        width: 14rem;
+        border: 2px #000000 solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
-    .hiasan-beranda-dua {
-        width: 100px;
-        height: 100px;
-        background-color: #ff5733;
-        border-radius: 50%;
-        position: relative;
-        bottom: 50px;
-        left: -60px;
-        z-index: 1;
+    .button-show-more{
+        text-align: center;
     }
