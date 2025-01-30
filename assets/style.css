@@ -40,6 +40,11 @@
         margin: 10px;
     }
 
+    nav li:hover{
+        transform: translateY(-5px);
+        transition: ease-in 50ms;
+    }
+
     nav a{
         text-decoration: none;
         color: #ffffff;
@@ -122,19 +127,272 @@
 
     .produk{
         display: flex;
-        margin: 40px;
+        margin: 0px 10px 90px 10px;
+        justify-content: center;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        text-align: center;
     }
     
-    .card{
+    .card {
+        width: 12px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
         margin: 10px;
-        width: 14rem;
-        border: 2px #000000 solid;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .card-content {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .product-name {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .product-price {
+        font-size: 1rem;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+        color: #666;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .btn-add-cart {
+        padding: 10px 15px;
+    
+        font-size: 0.9rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-add-cart:hover {
+        background-color: #0056b3;
+    }
+
 
     .button-show-more{
         text-align: center;
+    }
+
+
+/* untuk resfonsivenya dari GPT */
+
+    footer {
+        padding: 20px;
+        color: white;
+        background-color: #34468D;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /* Membuat elemen dalam footer bisa turun ke baris baru */
+    }
+
+    .judul-footer img {
+        width: 60%;
+        max-width: 50px;
+    }
+
+    .logo-footer {
+        background-color: #00a2c6;
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 5px;
+    }
+
+    .kontak-admin {
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .beranda-footer {
+        margin: 20px;
+    }
+
+    .list-about-website li {
+        list-style-type: none;
+        margin: 10px;
+    }
+
+    .navigation-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; 
+    }
+
+    @media (max-width: 768px) {
+        footer {
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center;
+        }
+
+        .logo-footer,
+        .kontak-admin,
+        .beranda-footer {
+            margin: 10px 0; 
+            width: 100%;
+        }
+
+        .judul-footer img {
+            width: 40%; 
+            max-width: 40px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        footer {
+            padding: 15px;
+        }
+
+        .logo-footer {
+            width: 150px;
+        }
+
+        .kontak-admin,
+        .beranda-footer {
+            margin: 10px;
+        }
+
+        .list-about-website li {
+            margin: 5px;
+        }
+
+        .judul-footer img {
+            width: 30%;
+            max-width: 30px;
+        }
+    }
+
+
+    .searchbar-kategori{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 15px;
+        padding: 10px;
+        width: 430px;
+        /* border: 2px solid black;
+        background-color: #007bff; */
+    }
+
+    .input-SearchBar-kategori{
+        Font-family: 'Quicksand', sans-serif;
+        border-radius: 10px;
+        background-color: #9dabe5;
+        padding: 5px;
+        margin: 10px;
+        color: #000000;
+    }
+
+    .input-SearchBar-kategori::-webkit-input-placeholder{
+        color: #000000;
+    }
+
+    .Produk-Produk{
+        display: flex;
+        margin: 0px 20px 90px 20px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+    .card {
+        width: 250px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
+        margin: 10px;
+    }
+
+    
+    .beranda-tentangkita{
+        padding: 10px;
+    }
+    .gambar-tentangkita{
+        width: 400px;
+    }
+/* 
+
+    .card-detailproduk{
+        padding: 30px;
+        background-color: #000000;
+        margin: 10px;
+        display: flex;
+    }
+
+    .card-image-detailproduk{
+        width: 50rem;
+        max-width: 30rem;
+        background-color: #007bff;
+    }
+
+    .card-content-detailproduk{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #007bff;
+    } */
+    
+    
+    .card-detailproduk {    
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid #ddd;
+        gap: 130px;
+        justify-content: center;
+        display: flex;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
+    }
+
+    .card-content-detailproduk{
+        text-align: center;
+        align-items: center;
+        width: 60%;
+        max-width: 20rem;
+    }
+
+    .card-image-detailproduk{
+        max-width: 40rem;
+    }
+
+    .card-image-detailproduk img{
+        width: 90%;
+        max-width: 29rem;
+        border-radius: 10%;
     }
