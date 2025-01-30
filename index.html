@@ -22,7 +22,7 @@
                     <a href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="#Produk">Produk</a>
+                    <a href="produk.html">Produk</a>
                 </li>
                 <li>
                     <a href="#TentangKami">Tentang Kami</a>
@@ -36,10 +36,14 @@
         
     <main>
 
+        <!-- placeholder untuk mencari produk -->
+        
         <div class="SearchBar">
             <i class="fas fa-search"></i>
             <input type="search" placeholder="Cari Product" class="input-SearchBar">
         </div><br><br>
+
+        <!-- Beranda DreamShop -->
 
         <div class="Beranda-DreamShop">
             <div class="isi-beranda">
@@ -65,66 +69,139 @@
         
         <div class="produk" id="Produk">
 
-            <div class="card">
-                <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dream Shop Procuy</h5>
-                    <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                    <a href="#" class="btn btn-primary">Detail</a>
-                    <a href="#" class="btn btn-primary">Pesan</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dream Shop Procuy</h5>
-                    <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                    <a href="#" class="btn btn-primary">Detail</a>
-                    <a href="#" class="btn btn-primary">Pesan</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dream Shop Procuy</h5>
-                    <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                    <a href="#" class="btn btn-primary">Detail</a>
-                    <a href="#" class="btn btn-primary">Pesan</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dream Shop Procuy</h5>
-                    <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                    <a href="#" class="btn btn-primary">Detail</a>
-                    <a href="#" class="btn btn-primary">Pesan</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dream Shop Procuy</h5>
-                    <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                    <a href="#" class="btn btn-primary">Detail</a>
-                    <a href="#" class="btn btn-primary">Pesan</a>
-                </div>
-            </div>
-                <div class="card">
-                    <img src="assets/img/Logo Dream Team.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Dream Shop Procuy</h5>
-                        <p class="card-text">Berisikan isi tentang produk sesuai dengan produk apa yang di tampilkan</p>
-                        <a href="#" class="btn btn-primary">Detail</a>
-                        <a href="#" class="btn btn-primary">Pesan</a>
-                    </div>
-                </div>
+            <!-- Untuk Produk-Produk -->
 
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/img/Logo Dream Team.jpg" alt="Product Image">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Product Name</h3>
+                    <p class="product-price">RP.999.999.99</p>
+                    <p class="product-description">
+                        berisi dekskripsi dari produk itu sendiri
+                    </p>
+                    <a href="produkdetail.html" class="btn-add-cart">Detail Produk</a>
+                </div>
+            </div>
+            
+            
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/img/Logo Dream Team.jpg" alt="Product Image">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Nama Produk</h3>
+                    <p class="product-price">Rp.999.999.99</p>
+                    <p class="product-description">
+                        berisi dekskripsi dari produk itu sendiri
+                    </p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            
         </div>
 
-            <p class="button-show-more">
-            <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Show More</button>
+        <!-- Buat Liat lebih Banyak Produk -->
+
+        <div class="button-show-more">
+            <p>
+                <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Show More</button>
             </p>
-    </main>
-    </body>
-    </html>
+        </div>
+
+    
+    <!-- Footer Dari Website -->
+    <footer>
+        <div class="judul-footer">
+            <div class="logo-footer">
+                <img src="assets/img/Logo_Dream_Team-removebg-preview.png" alt="Logo_Dream_Team-removebg-preview">
+                <p>Dream Shop</p>
+            </div>
+
+            <div class="kontak-admin">
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-envelope"></i>
+                            Contact : 
+                        </td>
+                        <td>
+                            <a href="mailto:dreamteam5183@gmail.com">dreamteam5183@gmail.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone"></i> phone : </td>
+                        <td><a href="https://wa.me/081111116994">Whatsapp</a></td>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+
+        <div class="beranda-footer">
+            <div class="list-about-website">
+                <ul class="navigation-menu">
+                    <li>
+                        <h3 class="judul-menu">Sosial Media</h3>
+                        <ul>
+                            <li>
+                                <a href="#" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="YouTube">
+                                    <i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/channel/UCLLdoxr3UqvSjj4O74Q3ljw">Dreamteam</a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Facebook">
+                                    <i class="fa-brands fa-facebook"></i> Facebook
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="judul-menu">Information</h3>
+                        <ul>
+                            <li>
+                                <a href="#" aria-label="About Us">
+                                    <i class="fa-solid fa-people-group"></i> About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Blog">
+                                    <i class="fa-solid fa-book"></i> Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Contact">
+                                    <i class="fa-solid fa-phone"></i> Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="judul-menu">My Accounts</h3>
+                        <ul>
+                            <li>
+                                <a href="#" aria-label="My Account">
+                                    <i class="fa-solid fa-person"></i> My Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Shopping Cart">
+                                    <i class="fa-solid fa-cart-shopping"></i> Shopping Cart
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
